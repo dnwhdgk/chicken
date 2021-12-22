@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- 상단부분 -->
+      <header id="header">
+        <nav>
+          <h1 class="logo">
+            <a href="#"><img src="images/로고.PNG" alt="" /></a>
+          </h1>
+
+          <ul class="member">
+            <li><a href="#">회원가입</a></li>
+            <li>|</li>
+            <li><a href="#">로그인</a></li>
+          </ul>
+
+          <ul class="menu">
+            <li>
+              <a href="#">메뉴</a>
+              <ul class="submn">
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">매장</a>
+              <ul class="submn">
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">이벤트</a>
+              <ul class="submn">
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">브랜드</a>
+              <ul class="submn">
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+                <li><a href="#">sub_mn</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- 메인이미지 -->
+      <section id="main_img">
+        <ul class="imgs">
+          <li class="first"></li>
+          <li class="second"></li>
+          <li class="third"></li>
+        </ul>
+        <ul class="btns">
+          <li class="first_btn"><a href="#"></a></li>
+          <li class="second_btn"><a href="#"></a></li>
+          <li class="third_btn"><a href="#"></a></li>
+        </ul>
+        <ul class="leftright">
+          <li><a href="#" id="prev">&lt;</a></li>
+          <li><a href="#" id="next">&gt;</a></li>
+        </ul>
+      </section>
+
+      <!-- 컨텐츠 -->
+      <section id="contents">
+        <!-- 메뉴소개 -->
+        <article class="menu">
+          <h2>PURADAK CHICKEN</h2>
+          <h3>차별화된 맛과 비주얼로 요리와 같은 치킨을 만듭니다.</h3>
+          <h4><a href="#">more+</a></h4>
+          <ul class="imgs">
+            <li>
+              <a href="#"><img src="images/대표메뉴-020.jpg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/대표메뉴_뉴린기.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/대표메뉴_블랙투움바.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/대표메뉴_투움바-06.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/대표메뉴_푸라닭.jpg" alt=""
+              /></a>
+            </li>
+          </ul>
+          <ul class="btns">
+            <li><a href="#">&lt;</a></li>
+            <li><a href="#">&gt;</a></li>
+          </ul>
+        </article>
+
+        <!-- 매장찾기 -->
+
+        <article class="find">
+          <h2>매장찾기</h2>
+          <h3>전국 매장을 빠르고 편하게 찾아보세요</h3>
+          <div class="store">
+            <div class="search">
+              <div class="store_s">
+                <ul class="part1">
+                  <li>지역</li>
+                  <li>
+                    <select name="" id="">
+                      <option value="서울">서울</option>
+                      <option value="부산">부산</option>
+                    </select>
+                  </li>
+                </ul>
+                <ul class="part2">
+                  <li>매장명</li>
+                  <li>
+                    <input type="text" placeholder="매장명을 입력하세요." />
+                  </li>
+                </ul>
+
+                <input
+                  class="btn"
+                  type="submit"
+                  name=""
+                  id=""
+                  value="매장찾기"
+                />
+              </div>
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13048.337854423102!2d129.06064599756147!3d35.15451421613186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb7af74f3a2d%3A0xf65e0e540d8d64ee!2z7ZG4652864utIOu2gOyCsOyEnOuptOygkA!5e0!3m2!1sko!2skr!4v1635745928717!5m2!1sko!2skr"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </article>
+
+        <!-- 프렌차이즈 -->
+        <article class="franchise">
+          <h3>믿고 선택하는 치킨프랜차이즈</h3>
+          <h2>사장님과 함께 성장하는 비지니스 파트너가 되겠습니다.</h2>
+          <h4>창업문의</h4>
+          <h1>1688-0000</h1>
+        </article>
+      </section>
+
+      <!-- 하단부분 -->
+      <footer id="footer">
+        <article class="outtro">
+          <ul class="info">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">가맹정 게시판</a></li>
+            <li><a href="#">고객의 소리</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">찾아고시는 길</a></li>
+          </ul>
+          <ul class="sns">
+            <li>
+              <a href="#"><img src="images/btn_f_instagram.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/btn_f_blog.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/btn_f_facebook.png" alt="" /></a>
+            </li>
+          </ul>
+          <img src="images/하단전체.PNG" alt="" />
+        </article>
+      </footer>
+    </div>
+  </body>
+</html>
